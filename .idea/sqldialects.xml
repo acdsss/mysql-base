@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/day01/day01-sql中函数.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/day01/day01-基础查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/day01/day01-排序查询.sql" dialect="GenericSQL" />
+  </component>
+</project>
