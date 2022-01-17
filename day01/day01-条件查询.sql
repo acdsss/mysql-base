@@ -17,7 +17,7 @@ commission_pct 提成，manager_id 经理id,department_id 部门id
 select first_name,last_name from employees where salary>12000;
 
 #2. 查询员工号为 176 的员工的姓名和部门号和年薪
-select first_name,last_name,department_id,salary*12*(1+ifnull(commission_pct,0)) yearsalary
+select first_name,last_name,department_id,salary*12*(1+ifnull(commission_pct,0)) 年薪
 from employees where employee_id=176;
 
 #3. 选择工资不在 5000 到 12000 的员工的姓名和工资

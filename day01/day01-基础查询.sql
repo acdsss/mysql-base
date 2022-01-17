@@ -16,7 +16,7 @@ select employee_id,first_name,last_name from employees;
 
 #给列起别名，两种，一种在列名后加as + 别名，一种在列名后加空格+别名。
 #别名中有特殊字符加‘ ’
-select employee_id a,first_name b,last_name c,salary d
+select employee_id '员工id',first_name '首名',last_name '尾名',salary '薪水'
 from employees;
 
 #显示表 departments 的结构，并查询其中的全部数据
